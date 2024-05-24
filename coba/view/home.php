@@ -3,8 +3,8 @@
 <?php ob_start(); ?>
 <div class="container mt-5">
     <div class="jumbotron">
-        <h1 class="display-4 text-center">Welcome to Angkasa Raya</h1>
-        <p class="lead text-center">Website Official Angkasa Raya.</p>
+        <h1 class="display-4 text-center">Welcome to Sewa Kamera App</h1>
+        <p class="lead text-center">A simple app to manage your camera transaction.</p>
         <hr class="my-4">
         <p class="text-center">Sebenernya page ini muncul karena web saya ga punya homepage sih, jadinya ini aja jadi homepage awkaowkaowka.</p>
         <div class="btns d-flex justify-content-center">

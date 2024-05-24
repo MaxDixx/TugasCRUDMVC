@@ -1,2 +1,3 @@
 <?php
-include_once 'controller/routes.php';
+include 'controller\routes.php';
+?>

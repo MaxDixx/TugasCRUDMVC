@@ -10,10 +10,5 @@ Router::url('dashboard/logout', 'get', 'AuthController::logout');
 Router::url('dashboard', 'get', 'DashboardController::index');
 
 Router::url('login', 'post', 'AuthController::saveLogin');
-Router::url('register', 'post', 'AuthController::saveRegister');
 
-// var_dump('ahah');
-
-
-new Router();
 ?>

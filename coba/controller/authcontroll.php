@@ -16,10 +16,10 @@ class AuthController {
 
         $user = User::login([
             'username' => $post['username'], 
-            'password' => $post['passwd']
+            'password' => $post['password']
         ]);
         if ($user) {
-            // unset($user['password']);
+            unset($user['password']);
             $_SESSION['user'] = $user;
             header('Location: '.BASEURL.'dashboard');
         }
@@ -32,10 +32,9 @@ class AuthController {
         $post = array_map('htmlspecialchars', $_POST);
 
         $user = User::register([
-            'usernamesignup' => $post['usernamesignup'], 
-            'nama' => $post['nama'], 
-            'password' => $post['passwordsignup']
-
+            'nama_lengkap' => $post['nama_lengkap'], 
+            'username' => $post['username'], 
+            'password' => $post['password']
         ]);
 
         if ($user) {
